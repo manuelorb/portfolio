@@ -661,12 +661,7 @@ input:checked + .slider:before {
   padding: 20px;
 }
 
-/* Hover flip for desktop */
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-/* Click flip for mobile */
+/* Click flip */
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -707,14 +702,8 @@ input:checked + .slider:before {
   color: white;
 }
 
-/* Disable hover flip on touch devices */
-@media (hover: none) {
-  .flip-card:hover .flip-card-inner {
-    transform: none;
-  }
-}
-
 /*Card end*/
+
 
 
 /* Github button start */
