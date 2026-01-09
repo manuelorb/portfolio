@@ -13,6 +13,7 @@
 }
 
 html, body {
+  width: 100%;
   margin: 0;
   background-color: var(--color-black-100);
   color: var(--color-white-50);
@@ -28,7 +29,7 @@ img.icon {
 }
 
 .section-header {
-  font-size: var(--headline);
+  font-size: clamp(26px, 2vw + 20px, 40px);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -112,9 +113,9 @@ img.icon {
 
 .logo {
   position: fixed;
-  right: 20px;
+  right: 10px;
   font-size: 2rem;
-  margin: 7px 0;
+  margin: 7px;
   color: var(--color-white-50);
 }
 
@@ -177,6 +178,8 @@ img.icon {
 /* Home start */
 
 .bg {
+  width: 100%;
+  overflow: hidden;
   position: absolute;
   top: 60px;
   left: 0;
@@ -364,7 +367,7 @@ img.icon {
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+  grid-template-columns: repeat(auto-fill, minmax(0, 350px));
   gap: 1.5rem;
   padding: 20px;
 }
@@ -418,28 +421,6 @@ img.icon {
 }
 
 /*Projects end*/
-
-
-
-/*Contact start*/
-
-.contact-card {
-  background-color: var(--color-white-50);
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 85mm;
-  height: 55mm;
-}
-
-.contact-card img {
-  width: 150px;
-  height: auto;
-  border-radius: 8mm;
-}
-
-/*Contact end*/
 
 
 
@@ -753,7 +734,7 @@ input:checked + .slider:before {
 .autoShow {
   animation: text-appear both;
   animation-timeline: view();
-  animation-range: 15% cover 40vh;
+  animation-range: 15vh cover 40vh;
 }
 
 @keyframes text-appear {
