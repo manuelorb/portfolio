@@ -95,6 +95,7 @@ const Projects = () => {
                 <img src="/icons/projects.svg" alt="projects icon" className="icon" />
                 Projects
             </h2>
+            <p className="projects-subtext autoShow">Click the card to find out more about each project</p>
             <div className="card-grid">
                 {projectList.map((project) => (
                     <div className="reveal">
