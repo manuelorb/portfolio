@@ -23,9 +23,9 @@ const projectList = [
         image: "/images/jammming.png",
         title: "Spotify Web API page",
         repository: "https://github.com/manuelorb/Jammming",
-        view: "https://jammmingsand.netlify.app/",
-        desc: "Jammming is a React web app that uses the Spotify API to let users search for songs, create custom playlists, and save those playlists to their Spotify accounts.",
-        fullDesc: "Jammming is a React-based application that integrates with the Spotify API to let users search Spotify’s music library, create custom playlists, and save them directly to their Spotify account. The app also allows users to view their existing Spotify playlists, load them into the editor, update tracklists, and save changes back to Spotify. Designed using modular React components, Jammming focuses on smooth state management, clear UI interactions, and real-time updates through API requests.",
+        view: "", // API KEY no longer works link used to be "https://jammmingsand.netlify.app/"
+        desc: "Jammming is a React web app that uses the Spotify API to let users search for songs, create custom playlists, and save those playlists to their Spotify accounts. The API key expired so it no longer works.",
+        fullDesc: "Jammming is a React-based application that integrates with the Spotify API to let users search Spotify’s music library, create custom playlists, and save them directly to their Spotify account. The app also allows users to view their existing Spotify playlists, load them into the editor, update tracklists, and save changes back to Spotify. Designed using modular React components, Jammming focuses on smooth state management, clear UI interactions, and real-time updates through API requests. The API key expired so it no longer works because i don't have Spotify premium any more.",
         technologies: 
             ["React (components, state management, hooks)",
             "Create React App (project setup & development environment)",
